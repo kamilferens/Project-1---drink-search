@@ -1,0 +1,77 @@
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+
+/* Ogólne, dotyczące wszystkiego */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* body */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Obszar kartki */
+.wrapper {
+  width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+
+/* Obszar nagłówka */
+.header {
+  background-image: url(coffee.jpg);
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  height: 360px;
+  padding: 20px 40px;
+}
+
+/* Obszar listy napojów */
+.drink-list {
+  padding: 10px 25px 10px 25px;
+}
+
+/* Poszczególne sekcje */
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: rgb(12, 12, 12);
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.search {
+  width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.85);
+}
+
+li {
+  list-style-type: none;
+  padding: 8px 20px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+li:last-child {
+  list-style-type: none;
+  padding: 8px 20px;
+  border-bottom: none;
+}
